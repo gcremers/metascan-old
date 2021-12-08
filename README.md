@@ -23,7 +23,10 @@ Furthermore, it utilizes the Kegg pathways for a complete metabolic overview of 
 Samples can be analyzed as eiter binned or unbinned metagenome.
 
 Metascan consists of a perl script, a few auxillary (text-)files and a set of HMM profiles, created by clustering TrEmbl proteins, based on Kegg K-numbers.
-Since it is a Prokka adaptation, it can therefor be run on any system that can already run Prokka, just by downloading the script and the databases, without the use of inception-software. The only modification that needs to be done is to direct the script to the right location of the database.
+
+**Since it is a Prokka adaptation, it can therefor be run on any system that can already run Prokka, just by downloading the script and the databases**. 
+
+he only modification that needs to be done is to direct the script to the right location of the database.
 
 
 **So, what can it do?**
