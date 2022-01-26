@@ -2262,7 +2262,7 @@ EOCITE
         {OPT=>"e-partial=f",    VAR=>\$part_eval_out, DEFAULT=>1E-80,      DESC=>"E-value cut-off for partials genes"},
         {OPT=>"size=f",         VAR=>\$sizeperc,      DEFAULT=>20,         DESC=>"Size range Query-Target length; 20 => 80-120%"},
         {OPT=>"size-part=f",    VAR=>\$sizepercpart,  DEFAULT=>30,         DESC=>"Size range Query-Target length for partial genes; 30 => 70-130%"},
-        {OPT=>"smalltrgt=f",    VAR=>\$smalltrgt,     DEFAULT=>200,        DESC=>"M--centre XXXax value for a target sequence to be considered a small protein. Lower is more stringent"},
+        {OPT=>"smalltrgt=f",    VAR=>\$smalltrgt,     DEFAULT=>200,        DESC=>"Max value for a target sequence to be considered a small protein. Lower is more stringent"},
   
         "\nAdditional Options:",
         {OPT=>"depth=s",        VAR=>\$depth,         DEFAULT=>'',         DESC=>"Include Depth of Genes. Use the Binmate TSV overview file"},
