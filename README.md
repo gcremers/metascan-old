@@ -100,3 +100,5 @@ To be removed from Metascan:
 - makeblastdb MINVER  => "2.2"
 - metabat2    MINVER  => "2.12"
 
+To be added:
+-different e values for each cycle database
